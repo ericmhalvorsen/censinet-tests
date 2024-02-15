@@ -1,0 +1,19 @@
+{
+  "name": "censinet-tests",
+  "type": "module",
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "cypress": "^13.6.4",
+    "ts-node": "^10.9.2"
+  },
+  "engines": {
+    "node": "20.11.1",
+    "npm": ">8"
+  },
+  "scripts": {
+    "test": "cypress run",
+    "open": "cypress open"
+  }
+}
